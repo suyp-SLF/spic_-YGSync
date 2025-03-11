@@ -1,0 +1,9 @@
+{
+	"definitions"	:  
+			[{
+				"type"		:   "service",
+				"interface" :	"kd.bos.mservice.serverscript.debug.DebugService",
+				"class"		:	"kd.bos.mservice.serverscript.debug.DebugServiceImpl",
+				"timeout"	:	"600000"
+			}]
+}

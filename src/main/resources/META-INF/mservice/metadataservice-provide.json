@@ -1,0 +1,15 @@
+{
+	"definitions"	:  
+			[{
+				"type"		:   "service",
+				"interface" :	"kd.bos.service.metadata.design.DesignMetadataService",
+				"class"		:	"kd.bos.service.metadata.design.DesignMetadataServiceImpl",
+				"timeout"	:	"600000"
+			},
+			{
+				"type"		:   "service",
+				"interface" :	"kd.bos.service.metadata.MetadataService",
+				"class"		:	"kd.bos.service.metadata.MetadataServiceImpl",
+				"timeout"	:	"600000"
+			}]
+}

@@ -1,0 +1,9 @@
+{
+	"definitions"	:  
+			[{
+				"type"		:   "service",
+				"interface" :	"kd.bos.mservice.form.FormService",
+				"class"		:	"kd.bos.mservice.form.FormServiceImpl",
+				"timeout"	:	"600000"
+			}]
+}

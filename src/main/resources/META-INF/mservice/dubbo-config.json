@@ -1,0 +1,17 @@
+{
+	"definitions"	:  
+			[{
+				"type"		:	"application",
+				"name"		:	"ierp"
+			},
+			{
+				"type"		:	"registry",
+				"protocol"  :	"zookeeper",
+				"address"	:	"172.17.5.184:2181"
+			},
+			{
+				"type"		: 	"provider",
+				"timeout"	:	"600000",
+				"delay"		:	"10"
+			}]
+}
