@@ -1,2 +1,2 @@
-# spic_YGSync
+# spic_syncYG
 send information to YG system
