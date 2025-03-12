@@ -923,9 +923,9 @@ public class ElecreceiptTask extends AbstractTask {
 	// 从FTP服务器上 下载数据到苍穹系统
 	public Map<String, Object> downloadFtp(String urlDownload) throws Exception {
 		LogUtils.log(false, "进入downloadFtp方法", "正在传输", urlDownload, urlDownload, new Date(), null);
-		// String ftpHost = "10.70.163.201";
-		// String ftpUserName = "gdt";
-		// String ftpPassword = "gdtftp";
+		// String ftpHost = "*.*.*.*";
+		// String ftpUserName = "***";
+		// String ftpPassword = "***";
 		// int ftpPort = 21;
 
 		// 如果MC中没取到值抛出异常
