@@ -57,9 +57,6 @@ import kd.cus.api.entity.FilterEntity;
 
 import kd.isc.iscb.platform.core.util.setter.MuliLangTextPropSetter;
 
-/**
- * @author ZXR
- */
 public class FTPTest implements IBillWebApiPlugin {
 	long fileSize = 0l;
 
@@ -188,7 +185,7 @@ public class FTPTest implements IBillWebApiPlugin {
 		
 		String ftpHost = "127.0.0.1";
 		String ftpUserName = "zou";
-		String ftpPassword = "bamawoaini789";
+		String ftpPassword = "*******";
 		int ftpPort = 21;
 		
 		
